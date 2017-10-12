@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;  
+    
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://static.pexels.com/photos/332984/pexels-photo-332984.jpeg) no-repeat 50% 50% ;
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 1570px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -700px;
+}
+.content ,h1{
+    font-family: 'Lobster', cursive;
+    color: #F5F5F5;
+    text-shadow: 0px 50px 200px #000;
+    font-size: 250px;
+    
+}
+.btn{
+    
+   
+    font-family: 'Pacifico', cursive;
+    color: #036A81;
+    font-size: 40%;
+    padding: 10px 10px  ;
+    border: solid #036A81 10px;
+    border-radius: 20px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width : auto;
+    height: auto;
+    top   : -200px;
+    left  : auto;
+    position:relative;
+     
+    
+}
+.btn:hover{
+    color: #64FFDA;
+    border: solid #FFFF8D 10px;
+}
+
